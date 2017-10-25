@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:90%;
+    margin: 0 auto;
+    background-color: #f9fafc;
+    position:relative;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:800;
+    margin: 20px 0 0 0; 
+}
+
+nav ul li{
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    margin-top:10px;
+}
+
+nav ul li a{
+    color:#69696a;
+    text-decoration:none;
+}
+
+.special{
+
+    background-color: #000;
+    padding: 10px 30px;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.special a{
+    color:#fff;
+}
+
+#text{
+    margin-bottom:20px;
+}
+
+#text h2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight:800;
+    margin-bottom: 20px;
+}
+
+#text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight:400;
+    border-left: 2px solid #69696a;
+    padding-left: 25px;
+    color:#69696a;
+}
+
+button{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    text-decoration:none;
+    width:90%;
+    border:none;
+    position:fixed;
+    bottom:10px;
+}
+
+@media only screen and (min-width:768px){
+    body{
+      width:95%;
+    }
+
+    header{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:center;
+      margin: 20px 0 90px 0;
+    }
+
+    h1{
+      margin-top:0;
+    }
+
+    ul{
+      display:flex;
+      justify-content:space-between;
+      width:400px;
+      align-items:center;
+    }
+
+    nav ul li{
+      margin:0;
+    }
+
+    .special{
+      margin:0;
+    }
+
+    #text h2{
+      font-size: 24px;
+    }
+
+    #text p{
+      width:40%;
+    }
+
+    #main{
+      display:flex;
+      justify-content:space-between;
+    }
+
+    #circles #red{
+      background-color:rgba(247, 136, 167, 0.6);
+      width:300px;
+      height:300px;
+      border-radius:50%;
+      position:absolute;
+      top: 150px;
+      right: 110px;
+}
+
+    #circles #purple{
+      background-color:rgba(207, 130, 213, 0.6);
+      width:140px;
+      height:140px;
+      border-radius:50%;
+      position:absolute;
+      top: 164px;
+      right: 14px;
+}
+
+    #circles #orange{
+      background-color:rgba(247, 193, 162, 0.6);
+      width:180px;
+      height:180px;
+      border-radius:50%;
+      position:absolute;
+      top: 273px;
+      right:0px;
+}
+
+    #scroll{
+        display:flex;
+        justify-content:center;
+    }
+
+    button.special{
+    width:20%;
+}
+    
+
